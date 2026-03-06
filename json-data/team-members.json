@@ -1,0 +1,83 @@
+[
+  {
+    "memberName": "Mohit Kumar",
+    "memberID": "12",
+    "yearsOfExperience": 10,
+    "skillset": [
+      "JavaScript",
+      "Python",
+      "React"
+    ],
+    "description": "Experienced developer with a strong background in full-stack development.",
+    "projectStartDate": {
+      "day": 1,
+      "month": 1,
+      "year": 2023
+    },
+    "projectEndDate": {
+      "day": 1,
+      "month": 1,
+      "year": 2027
+    },
+    "allocationPercentage": 10,
+    "task": {}
+  },
+  {
+    "memberName": "Saikumar",
+    "memberID": "19",
+    "yearsOfExperience": 9,
+    "skillset": [
+      "JavaScript",
+      "Python",
+      "React"
+    ],
+    "description": "Experienced developer with a strong background in full-stack development.",
+    "projectStartDate": {
+      "day": 1,
+      "month": 1,
+      "year": 2025
+    },
+    "projectEndDate": {
+      "day": 1,
+      "month": 1,
+      "year": 2027
+    },
+    "allocationPercentage": 20,
+    "task": {}
+  },
+  {
+    "memberID": "18",
+    "yearsOfExperience": 6,
+    "skillset": [
+      "CSS",
+      "HTML",
+      "TS"
+    ],
+    "description": "Front end dev",
+    "projectStartDate": {
+      "day": 1,
+      "month": 1,
+      "year": 2025
+    },
+    "projectEndDate": {
+      "day": 1,
+      "month": 1,
+      "year": 2026
+    },
+    "allocationPercentage": 100,
+    "task": {
+      "taskName": "test",
+      "deliverables": "test del",
+      "taskStartDate": {
+        "day": 1,
+        "month": 1,
+        "year": 2026
+      },
+      "taskEndDate": {
+        "day": 1,
+        "month": 3,
+        "year": 2026
+      }
+    }
+  }
+]
