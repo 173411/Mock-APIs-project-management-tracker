@@ -23,6 +23,11 @@ function saveTeamMembers(teamMembers) {
   fs.writeFileSync(filePath, JSON.stringify(teamMembers, null, 2), 'utf-8');
 }
 
+// Health check endpoint
+app.get('/api/health', (req, res) => {
+  res.status(200).json({ success: true, message: 'API is healthy' });
+});
+
 // Define a GET route for /api/teamMembers
 app.get('/api/teamMembers', (req, res) => {    
   try {
