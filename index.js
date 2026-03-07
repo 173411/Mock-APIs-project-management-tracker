@@ -56,7 +56,7 @@ app.post('/api/teamMembers', (req, res) => {
     try {
     const newMember = {
         memberID: req.body.memberID,
-        membername: req.body.membername,
+        memberName: req.body.memberName,
         yearsOfExperience: req.body.yearsOfExperience,
         skillset: req.body.skillset,
         description: req.body.description,

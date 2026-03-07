@@ -47,6 +47,7 @@
   },
   {
     "memberID": "18",
+    "memberName": "Divya J",
     "yearsOfExperience": 6,
     "skillset": [
       "CSS",
@@ -64,20 +65,30 @@
       "month": 1,
       "year": 2026
     },
-    "allocationPercentage": 100,
-    "task": {
-      "taskName": "test",
-      "deliverables": "test del",
-      "taskStartDate": {
-        "day": 1,
-        "month": 1,
-        "year": 2026
-      },
-      "taskEndDate": {
-        "day": 1,
-        "month": 3,
-        "year": 2026
-      }
-    }
+    "allocationPercentage": 67
+  },
+  {
+    "memberID": "8",
+    "memberName": "Praveen",
+    "yearsOfExperience": 4,
+    "skillset": [
+      "Vue",
+      "Python",
+      "Kubernetes",
+      "React",
+      "Java"
+    ],
+    "description": "backend resource",
+    "projectStartDate": {
+      "year": 2017,
+      "month": 3,
+      "day": 9
+    },
+    "projectEndDate": {
+      "year": 2026,
+      "month": 11,
+      "day": 30
+    },
+    "allocationPercentage": 88
   }
 ]
