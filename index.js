@@ -108,7 +108,7 @@ app.put('/api/teamMembers/:id/allocation', (req, res) => {
     console.log('Received allocation update request:', req.body);
 
     const newAllocation = req.body.allocationPercentage;
-    member.allocationPercentage = newAllocation || member.allocationPercentage; // Update allocation percentage if provided, otherwise keep existing
+    member.allocationPercentage = newAllocation;
     console.log(`Updated allocation percentage for member ${memberId}:`, member );
     saveTeamMembers(teamMembers);
     res.status(200).json({ success: true, message: 'Allocation percentage updated successfully', member: member });

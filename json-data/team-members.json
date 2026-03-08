@@ -19,8 +19,21 @@
       "month": 1,
       "year": 2027
     },
-    "allocationPercentage": 10,
-    "task": {}
+    "allocationPercentage": 100,
+    "task": {
+      "taskName": "y",
+      "deliverables": "y",
+      "taskStartDate": {
+        "year": 2026,
+        "month": 3,
+        "day": 4
+      },
+      "taskEndDate": {
+        "year": 2026,
+        "month": 3,
+        "day": 25
+      }
+    }
   },
   {
     "memberName": "Saikumar",
@@ -42,7 +55,7 @@
       "month": 1,
       "year": 2027
     },
-    "allocationPercentage": 20,
+    "allocationPercentage": 100,
     "task": {}
   },
   {
@@ -65,7 +78,21 @@
       "month": 1,
       "year": 2026
     },
-    "allocationPercentage": 67
+    "allocationPercentage": 0,
+    "task": {
+      "taskName": "offertore",
+      "deliverables": "offertore",
+      "taskStartDate": {
+        "year": 2025,
+        "month": 2,
+        "day": 12
+      },
+      "taskEndDate": {
+        "year": 2026,
+        "month": 1,
+        "day": 1
+      }
+    }
   },
   {
     "memberID": "8",
@@ -89,6 +116,6 @@
       "month": 11,
       "day": 30
     },
-    "allocationPercentage": 88
+    "allocationPercentage": 100
   }
 ]
